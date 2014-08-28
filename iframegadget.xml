@@ -56,7 +56,7 @@
 	
 	for (var key in params) {
 		if (params.hasOwnProperty(key)) {
-			if (iframeURL.contains('?')) {
+			if (iframeURL.indexOf("?") > -1) {
 				urlParams = urlParams + '&';
 			} else {
 				urlParams = urlParams + '?';
