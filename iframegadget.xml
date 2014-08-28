@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
 
-	<ModulePrefs title="Include gadget (iframe)" title_url="http://sites.google.com/site/gadgetsbysj/gadgets/iframe" 
+	<ModulePrefs title="Include gadget (iframe)" title_url="https://iframe-google-gadget-url-parameters.googlecode.com"
 	description="IFrame Widget That Will Pass URL Parameters" 
 	thumbnail="http://sites.google.com/site/gadgetsbysj/gadgets/iframe/iframe-thumbnail.png" 
 	height="800" 
 	width="600" 
-	author="Paul Dorsey & Erica Green" 
+	author="Paul Dorsey and Erica Green" 
 	author_email="support@orangeleap.com">
 		<Require feature="dynamic-height"/>
 	</ModulePrefs>
