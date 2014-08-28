@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
 
-	<ModulePrefs title="Include gadget (iframe)" title_url="https://iframe-google-gadget-url-parameters.googlecode.com"
+	<ModulePrefs title="IFrame Gadget With URL Parameter Passing" title_url="https://iframe-google-gadget-url-parameters.googlecode.com"
 	description="IFrame Widget That Will Pass URL Parameters" 
 	thumbnail="http://sites.google.com/site/gadgetsbysj/gadgets/iframe/iframe-thumbnail.png" 
 	height="800" 
@@ -10,7 +10,7 @@
 	author_email="support@orangeleap.com">
 		<Require feature="dynamic-height"/>
 	</ModulePrefs>
-	<UserPref name="iframeURL" display_name="URL to content" required="true"/>
+	<UserPref name="iframeURL" display_name="IFrame URL" required="true"/>
 	<UserPref name="scroll" display_name="Display scrollbar" default_value="auto" datatype="enum">
 		<EnumValue value="auto" display_value="Automatic"/>
 		<EnumValue value="no" display_value="No"/>
