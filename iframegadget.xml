@@ -79,7 +79,6 @@
   }
   
 function parseQueryString(inputValue) {
-alert("test");
     var query = '';
 	var map   = {};
 	if (typeof inputValue == 'undefined' || inputValue.length == 0) {
